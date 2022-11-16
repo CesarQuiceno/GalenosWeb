@@ -673,6 +673,7 @@ h3 {
 
 .slider_bg_2 {
   background-image: url(../img/banner/banner_IPS.png);
+
 }
 
 .slider_bg_3 {
@@ -682,15 +683,18 @@ h3 {
 
 .slider_area .single_slider {
   height: 450px;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 100%;
 }
 
 @media (max-width: 767px) {
   .slider_area .single_slider {
     height: 420px;
-  }
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
 }
 
 
@@ -712,7 +716,10 @@ h3 {
   
   .slider_area .single_slider .slider_text h3 {
     font-size: 33px;
-    letter-spacing: 3px;
+    letter-spacing: 3px;  
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
   }
 }
 
@@ -720,6 +727,7 @@ h3 {
   
   .slider_area .single_slider .slider_text h3 {
     font-size: 30px;
+    
   }
 }
 
@@ -728,6 +736,7 @@ h3 {
   .slider_area .single_slider .slider_text h3 {
     font-size: 35px;
     letter-spacing: 3px;
+    
   }
 }
 
@@ -743,12 +752,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider_area .single_slider .slider_text p {
     font-size: 16px;
+    
   }
 }
 
 @media (max-width: 767px) {
   .slider_area .single_slider .slider_text p {
     font-size: 16px;
+    
   }
 }
 
